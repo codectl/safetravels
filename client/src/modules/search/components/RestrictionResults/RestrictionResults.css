@@ -1,0 +1,26 @@
+#country-restrictions #severity > div {
+    border: .1rem solid;
+    border-radius: 1.25rem;
+    padding: .1rem .5rem;
+}
+
+#country-restrictions #severity .major {
+    border-color: #d1435b;
+    color: #d1435b;
+}
+
+#country-restrictions #severity .moderate {
+    border-color: #ff9400;
+    color: #ff9400;
+}
+
+#country-restrictions #severity .low {
+    border-color: #00a698;
+    color: #00a698;
+}
+
+#country-restrictions #severity .unknown {
+    border-color: #b2b2bf;
+    color: #b2b2bf;
+}
+

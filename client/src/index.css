@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+}
+
+* {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* MDB & Bootstrap */
+.navbar {
+    font-weight: 400;
+}
+
+.md-form {
+    font-weight: 300;
+}
+
+.md-form > label {
+    font-weight: 200;
+}
+
+.fade-scale {
+    transform: scale(0.7);
+    opacity: 0;
+    -webkit-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.show .fade-scale {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.tab-content .tab-pane {
+    transition: all ease .7s;
+}
+
+.invalid-feedback:first-letter {
+    text-transform: capitalize;
+}
+
+.navbar form .md-form input {
+    margin: 0;
+}
+
+.container {
+    max-width: 65rem;
+}

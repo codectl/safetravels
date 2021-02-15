@@ -1,0 +1,7 @@
+#covid-updates #infections .positive {
+    color: #d1435b;
+}
+
+#covid-updates #infections .negative {
+    color: #00a698;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "safetravels",
+  "version": "0.1.0",
+  "description": "A class project called Safe Travels.",
+  "private": true,
+  "scripts": {
+    "install:client": "cd client/ && npm install --no-fund",
+    "install:server": "cd server/ && npm install --no-fund",
+    "start:dev:client": "cd client/ && npm run start:dev",
+    "start:dev:server": "cd server/ && npm run start:dev",
+    "start:dev:all": "cd server/ && npm run start:dev:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rena2damas/safetravels.git"
+  },
+  "author": "rena2damas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rena2damas/safetravels/issues"
+  },
+  "homepage": "https://github.com/rena2damas/safetravels#readme"
+}
