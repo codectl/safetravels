@@ -75,7 +75,7 @@ $ sudo npm install create-react-app -g
 
 ## Gitflow
 
-In order to have some structure, and considering there are multiple contributors, the project follows some basic gitflow. The current branches are:
+In order to have some structure the project follows some basic gitflow. The current branches are:
 
 * ```master```: a stable project version. Every delivered functionality
 works and is does not conflict with other present features.
@@ -99,19 +99,7 @@ $ git push -u origin feature/<feature name>
 ```
 
 Once the feature is finished and ready to merge, I recommend creating
-a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
-to ```develop```. That way, everyone in the group gets
-a chance to review the code. There are great benefits in doing so:
-
-1. We all make mistakes. Reviewing the code can prevent it from
-happening.
-   
-2. Everyone gets acquainted with the code each one produces in a more
-organized manner.
-   
-3. Looking at each other's code we can be critical about the code
-we write, make suggestions, start discussions and basically learn
-since we are all starting from scratch.
+a [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to ```develop```. That way, everyone in the group gets a chance to review the code.
 
 ## License
 
