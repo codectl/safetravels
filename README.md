@@ -115,4 +115,4 @@ since we are all starting from scratch.
 
 ## License
 
-[MIT](https://github.com/Bgrandez/ait618-group2#LICENSE)
+[MIT](https://github.com/rena2damas/safetravels#LICENSE)
